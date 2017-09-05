@@ -9,9 +9,20 @@ function init() {
   body.addEventListener('keydown', function(e) {
     let currentKey = e.which;
     console.log(currentKey);
+
+    if (key === code[index]) {
+      index++;
+
+      if (index === code.length) {
+        alert("KONAMI");
+        index = 0;
+      }
+    } else {
+      index = 0;
+    }
   });
 
-  
+
 
   alert('KONAMI');
 }
