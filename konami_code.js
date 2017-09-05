@@ -5,7 +5,9 @@ function init() {
   var body = document.getElementsByTagName('body');
   let index = 0;
 
-
+  body.addEventListener('keydown', function(e)) {
+    
+  }
 
   alert('KONAMI');
 }
