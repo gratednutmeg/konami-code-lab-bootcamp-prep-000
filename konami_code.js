@@ -11,6 +11,7 @@ function init() {
 
     if (key === code[index]) {
       index++;
+      console.log(index);
 
       if (index === code.length) {
         alert("KONAMI");
@@ -20,8 +21,4 @@ function init() {
       index = 0;
     }
   });
-
-
-
-  alert('KONAMI');
 }
