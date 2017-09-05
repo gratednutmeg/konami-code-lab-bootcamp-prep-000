@@ -9,7 +9,7 @@ function init() {
   body.addEventListener('keydown', function(e) {
     let currentKey = e.which;
 
-    if (key === code[index]) {
+    if (currentKey === code[index]) {
       index++;
       console.log(index);
 
