@@ -7,7 +7,7 @@ function init() {
   let index = 0;
 
   body.addEventListener('keydown', function(e) {
-    let currentKey = e.which;
+    let currentKey = parseInt(e.detail || e.which);
 
     if (currentKey === code[index]) {
       index++;
