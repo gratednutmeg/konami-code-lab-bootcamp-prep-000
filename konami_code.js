@@ -9,7 +9,9 @@ function init() {
   body.addEventListener('keydown', function(e) {
     let currentKey = e.which;
     console.log(currentKey);
-  })
+  });
+
+  
 
   alert('KONAMI');
 }
