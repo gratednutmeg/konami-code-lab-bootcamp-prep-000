@@ -6,7 +6,7 @@ function init() {
   let index = 0;
 
   body.addEventListener('keydown', function(e) {
-    
+    console.log(e.which)
   }
 )
 
