@@ -6,8 +6,8 @@ function init() {
   let index = 0;
 
   body.addEventListener('keydown', function(e) {
-let currentKey = 
-    console.log(e.which);
+    let currentKey = e.which;
+    console.log(currentKey);
   }
 )
 
